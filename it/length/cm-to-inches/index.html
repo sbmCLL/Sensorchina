@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Convertitore da cm a pollici</title>
+  <meta name="description" content="Convertitore da cm a pollici" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+  <main class="container hero">
+    <section class="calculator-card">
+      <h1 id="page-title"></h1>
+      <p id="page-subtitle"></p>
+      <div class="ad-slot">AdSense Slot Placeholder (Top)</div>
+      <div class="grid">
+        <div class="field">
+          <label id="label-cm" for="input-cm"></label>
+          <input id="input-cm" type="number" step="any" placeholder="0" />
+        </div>
+        <button class="swap" type="button" aria-hidden="true">⇄</button>
+        <div class="field">
+          <label id="label-in" for="input-in"></label>
+          <input id="input-in" type="number" step="any" placeholder="0" />
+        </div>
+      </div>
+      <div class="actions">
+        <button id="btn-calc" class="primary" type="button"></button>
+        <button id="btn-copy" type="button"></button>
+        <button id="btn-clear" type="button"></button>
+      </div>
+      <pre id="result" class="result"></pre>
+      <div class="ad-slot">AdSense Slot Placeholder (Below Calculator)</div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script type="module" src="/assets/js/page-cm-to-inches.js"></script>
+</body>
+</html>
